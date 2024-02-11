@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero">
+
+        <div class="Engine-Select">
+            <select class="select-box">
+                <option id="chat" value="first" selected>ChatGPT 3.5</option>
+                <option id="gem" value="Second">Gemini</option>
+            </select>
+        </div>
+        <div class="hea">
+            <h1>Search <span class="heigh">Engine</span></h1>
+        </div>
+
+    </div>
+    <div class="container">
+        <p id="output"></p>
+       
+    </div>
+    <div id="text-area">
+        <input type="text" id="search-box" placeholder="search anything here ...">
+        <a href="" id="microphone-button"><i class="fa-solid fa-microphone"></i></a>
+    </div>
+    <div id="text-area1">
+        <input type="text" id="search-box1" placeholder="search anything here ...">
+        <a href="" id="image-button"><i class='bx bx-image-add'></i></a>
+        <a href="" id="microphone-button1"><i class="fa-solid fa-microphone"></i></a>
+         <!-- Changed the id to microphone-button1 -->
+    </div>
+    <div class="generate">
+        <button id="submit">Search</button>
+    </div> 
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
